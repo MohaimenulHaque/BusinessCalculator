@@ -1,0 +1,235 @@
+body{
+    background-color: #9E7BB5;
+    margin: 0;
+    padding: 0;
+
+    /*for footer adjust in buttom*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+main{
+    min-height: calc(92.5vh - 100px - 100px);
+}
+
+h1{
+    margin: 0;
+    padding-top: 5px;
+    color: #9E7BB5;
+    text-align: center;
+    font-size: 80px;
+      
+}
+#header{
+    background-color: #2D283E;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    height: 60px;
+    width: 52px;
+    margin: 13px;
+}
+.logo{
+    margin-top: -62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.clock{
+    margin: 0 auto;
+    padding: 5px;
+    height: 20px;
+    width: 105px;
+    border-radius: 10px;
+}
+.center{
+    width: 530px;
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 100px;   
+}
+    
+#div{
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 200px;
+    height: 150px;
+    background-color: #4C495D;
+    float: left;
+    border: 2px solid rgb(28, 28, 28);
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px rgb(40, 40, 40);
+    cursor: pointer;
+    
+}
+
+#div:hover{
+    background: #564F6F;
+    box-shadow: 6px 6px 5px rgb(58, 58, 58);
+}
+
+
+#photo{
+    width: 70px;
+    height: 80px;
+    margin: 10px 10px 0 28px;
+  
+}
+#photo2{
+    width: 100px;
+    height: 80px;
+    margin: 10px 10px 0 20px;
+  
+}
+h5{
+    margin-top: 10px;
+    text-align: center;
+    font-size: medium;
+    color: #D1D7E0;
+}
+#child{
+    width: 145px;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+button{
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width:767px){
+    main{
+        min-height: calc(92vh - 100px - 100px);
+    }
+    .center{
+        margin: 0 auto;
+        padding: 10px;
+        width: 235px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    h1{
+        margin: 0;
+        padding-top: 5px;
+        color: #9E7BB5;
+        text-align: center;
+        font-size: 60px;    
+    }
+
+    #header{
+        background-color: #2D283E;
+        height: 150px;
+        align-items: center;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #logo{
+        margin: 0 auto;        
+        height: 60px;
+        width: 52px;              
+    }
+    .logo{
+        margin: 0 auto;
+        padding: 3px;
+        height: 60px;
+        width: 52px;
+    }
+    #div{
+        width: 170px;
+        height: 150px;
+    }
+    #child{
+        width: 170px;
+        height: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    #photo{
+        width: 70px;
+        height: 80px;
+        margin: 10px 10px 0 37px;
+      
+    }
+    #photo2{
+        width: 100px;
+        height: 80px;    
+        margin: 10px 10px 0 30px;
+      
+    }
+    
+}
+
+
+/* footer style start here  */
+
+
+.footer{
+    margin-top: auto;
+    background: #000016;
+    color: #fff;
+    text-align: center;
+    padding: 0.3em;
+    
+        
+  }
+
+  
+  .footer .footer-title{
+    font-size: 15px;
+    font-weight: 600; 
+    margin: 0;
+  }
+  
+  .footer p{
+    font-size: 16px;
+    margin-top: 10px;
+    margin: 0;
+  }
+  
+  .footer p a{
+    color: #e3a324;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .media-icons{
+    margin-top: 1px;
+  }
+  
+  .media-icons a{
+    color: #fff;
+    font-size: 25px;
+    margin: 5px;
+    
+  }
+  .fa-facebook-f:hover{
+    color: #0c73b8;
+  }
+  .fa-instagram:hover{
+    color: #0c73b8;
+  }
+  .fa-linkedin:hover{
+    color: #0c73b8;
+  }
+  .fa-twitter:hover{
+    color: #0c73b8;
+  }
+  /* footer style start here  */
