@@ -4,6 +4,7 @@ body{
     padding: 0;
 
     /*for footer adjust in buttom*/
+    
     display: flex;
     flex-direction: column;
     min-height: 100vh;

@@ -66,9 +66,6 @@ $total = mysqli_num_rows($data);
         ?>
 
 
-
-
-
     </table>
     
 </body>
