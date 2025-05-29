@@ -10,7 +10,6 @@ set password for the database as : " "
 run the xampp server
 start the project ... " localhost/BusinessCalculator
 
-Admin Login: 
-Username:rion 
+Login: 
+Username:admin 
 Password: 123
-
