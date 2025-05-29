@@ -42,7 +42,7 @@ $total = mysqli_num_rows($data);
        {
             while($result = mysqli_fetch_assoc($data)){
                 echo "<tr>
-                <td>".$result['ID']."</td>
+                <td>".$result['id']."</td>
                 <td>".$result['Date']."</td>
                 <td>".$result['Total_Amount']." Tk</td>
                 <td>".$result['Total_Profit']." Tk</td>
